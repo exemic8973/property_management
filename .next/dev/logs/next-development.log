@@ -1,0 +1,17 @@
+[00:00:01.331] Server  LOG     
+[00:00:01.331] Server  LOG       We detected TypeScript in your project and created a tsconfig.json file for you.
+[00:00:01.550] Server  LOG     ✓ Ready in 1097ms
+[00:01:17.594] Server  ERROR   ⨯ ./AI-projects/newPropertyManagement/property-management/src/app/api/seed/route.ts:2:1
+Module not found: Can't resolve '@/lib/db'
+  1 | import { NextResponse } from 'next/server'
+> 2 | import { prisma } from '@/lib/db'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import bcrypt from 'bcryptjs'
+  4 |
+  5 | export async function POST() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
